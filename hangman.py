@@ -71,7 +71,7 @@ def print_hangman():
             /   \\ |
             ______|
             |     |"""
-
+# TODO: change to switch/case
     if wrong_guess == 0:
         print(hangman_0)
     elif wrong_guess == 1:
@@ -134,6 +134,7 @@ def print_blank():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    # default word list
     word_list = ["BATMAN", "NIGHTWING", "RED HOOD", "RED ROBIN", "SPOILER", "BATGIRL", "BATWOMAN",
                  "AGENT A", "ROBIN", "BLACK BAT", "SIGNAL", "BLUEBIRD", "CATWOMAN", "ORACLE"]
     wrong_guess = 0
